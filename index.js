@@ -98,7 +98,8 @@ var qnLib = require('qn');
                 } else {
                     return callback(null, {
                         name: image.name,
-                        url: "//" + result.url
+                        // url: "//" + result.url
+                        url: result.url
                     });
                 }
             });
